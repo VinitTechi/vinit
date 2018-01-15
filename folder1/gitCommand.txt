@@ -1,0 +1,39 @@
+User : VinitTechi
+e-mail : vinit@techievolve.com
+password : change18
+
+
+1. git init
+2. git clone 'repositry link' 
+3. open . "To Open The folder" 
+4. git status 
+5. git commit -a -m cominit needs "-a" for all and -m for message 
+6. if you are not loged in you need to configure the use 
+->git config --global user.name "" 
+->git config --global user. email emailaddrs 
+9. git config --list to check list of configuration 
+10. git log -2 show last 2 commits 
+VIM editor :q getout push // pull Remote 11. git remote -v "to check remote lists" 
+12. git push "remote location" like origin master 
+13. ----------------------------------- 
+14. git add "filename" 
+15 git remote add origin "repostry url" 
+16. git push origin master 
+17. git pull origin master
+
+
+git remote -v
+
+
+…or create a new repository on the command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/VinitTechi/test.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/VinitTechi/test.git
+git push -u origin master
